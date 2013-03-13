@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:Enter description here...}
+ *
+ * @param ${2:type} \$${3:param}
+ * @return ${4:return}
+ */
+public function ${5:function}(\$${3:param})
+{
+
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sf2PhpFunction</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

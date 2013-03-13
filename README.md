@@ -24,4 +24,5 @@ Snippets
 - sf2EntityRepo: create the base repository skeleton
 - sf2FormType: create the base form skeleton
 - sf2ServiceConfig: create then base service configuration skeleton
-- sf2CommentPhp: add a PHP comment block
+- sf2PhpComment: add a PHP comment block
+- sf2PhpFunction: add a PHP function skeleton
