@@ -3,7 +3,8 @@ sublime-text2-sf2-snippets
 
 Symfony 2 snippets for Sublime Text 2
 
-Snippets.
+Snippets
+--------
 
 - sf2Controller: create the base controller skeleton
 - sf2Entity: create then base entity skeleton
