@@ -1,9 +1,10 @@
 <snippet>
     <content><![CDATA[
-/**
- * ${1:comment}
+ /**
+ * ${1:Enter description here...}
  *
  * @param ${2:paramType} \$${3:paramName}
+ * @return ${4:return}
  */
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
