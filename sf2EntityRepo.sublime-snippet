@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+<?php
+
+namespace ${1:vendor}\\${2:bundle}Bundle\Entity;
+
+use Doctrine\ORM\EntityRepository;
+
+class ${3:entity}Repository extends EntityRepository
+{
+
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sf2EntityRepo</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

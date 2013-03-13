@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+<?php
+
+namespace ${1:<vendor>}\\${2:<bundle>}Bundle\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+
+class ${3:<controller>}Controller extends Controller
+{
+    public function indexAction()
+    {
+        return \$this->render('${1}${2}Bundle:${3}:index.html.twig');
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sf2Controller</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

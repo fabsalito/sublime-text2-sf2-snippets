@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @var boolean \$${1:field}
+ *
+ * @ORM\Column(name="${1:field}", type="boolean")
+ *
+ * @Assert\Type(type="bool")
+ */
+private \$${1:field};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sf2EntityFieldBool</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
