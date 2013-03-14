@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+/*
+ * @ORM\OneToMany(targetEntity="${1:vendor}\${2:bundle}Bundle\Entity\${3:entity}" mappedBy="${4:mappedField}")
+ */
+private \$${5:field};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sf2EntityRelOneToMany</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

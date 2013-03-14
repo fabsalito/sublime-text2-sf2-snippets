@@ -2,11 +2,12 @@
     <content><![CDATA[
 /*
  * @ORM\ManyToOne(targetEntity="${1:vendor}\\${2:bundle}Bundle\Entity\\${3:entity}")
+ * @ORM\JoinColumn(name="${4:tableField}", referencedColumnName="${5:referencedField}")
  */
-private \$${4:field};
+private \$${6:field};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>sf2EntityRelManyToOne</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
+    <scope>source.php</scope>
 </snippet>

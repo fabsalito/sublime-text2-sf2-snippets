@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$this->forward('${1:bundle}Bundle:${2:folder}:${3:view}', array());
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sf2ControllerForward</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>
