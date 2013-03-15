@@ -6,9 +6,9 @@ Symfony 2 snippets for Sublime Text 2
 Snippets
 --------
 
-- sf2Controller: create the base controller skeleton
-- sf2ControllerActionAnnotated: add a annotated action
-- sf2ControllerAction: add an action
+- sf2Controller: controller skeleton
+- sf2ControllerActionAnnotated: annotated action class
+- sf2ControllerAction: action class
 - sf2ControllerEntityManager: get entity manager
 - sf2ControllerRepository: get a repository
 - sf2ControllerSession: get session
@@ -16,25 +16,27 @@ Snippets
 - sf2ControllerForward: make a forward
 - sf2ControllerRedirect: make a redirect
 - sf2ControllerRender: make a render
-- sf2ControllerUseRoute: add Route use
-- sf2ControllerUseTemplate: add Template use
-- sf2Entity: create then base entity skeleton
-- sf2EntityAssertMinLength: add a MinLength assert to entity field
-- sf2EntityAssertNonBlank: add a NonBlank assert to entity field
-- sf2EntityAssertTrue: add a True assert to entity field
-- sf2EntityAssertType: add a Type assert to entity field
-- sf2EntityFieldBool: add a bool type field to entity
-- sf2EntityFieldDatetime: add a datetime type field to entity
-- sf2EntityFieldDecimal: add a decimal type field to entity
-- sf2EntityFieldId: add the ID field to entity
-- sf2EntityFieldInteger: add a integer type field to entity
-- sf2EntityFieldString: add a string type field to entity
-- sf2EntityFieldText: add a text type field to entity
-- sf2EntityRelManyToOne: add a many to one relation field to entity
-- sf2EntityRelOneToMany: add a one to many relation field to entity
-- sf2EntityToString: add the toString() method to entity
-- sf2EntityRepo: create the base repository skeleton
-- sf2FormType: create the base form skeleton
-- sf2ServiceConfig: create then base service configuration skeleton
-- sf2PhpComment: add a PHP comment block
-- sf2PhpFunction: add a PHP function skeleton
+- sf2ControllerUseRoute: Route use
+- sf2ControllerUseTemplate: Template use
+- sf2Entity: entity skeleton
+- sf2EntityAssertMinLength: MinLength assert
+- sf2EntityAssertNonBlank: NonBlank assert
+- sf2EntityAssertTrue: True assert
+- sf2EntityAssertType: Type assert
+- sf2EntityFieldBool: bool type entity field
+- sf2EntityFieldDatetime: datetime type entity field
+- sf2EntityFieldDecimal: decimal type entity field
+- sf2EntityFieldId: ID entity field
+- sf2EntityFieldInteger: integer type entity field
+- sf2EntityFieldString: string type entity field
+- sf2EntityFieldText: text type entity field
+- sf2EntityRelManyToOne: Many To One relation entity field
+- sf2EntityRelOneToMany: One To Many relation entity field
+- sf2EntityToString: __toString() entity method
+- sf2EntityRepository: repository skeleton
+- sf2FormType: form type skeleton
+- sf2PhpComment: PHP comment block
+- sf2PhpFunction: PHP function skeleton
+- sf2TwigExtension: twig extension skeleton
+- sf2YamlRoute: route configuration
+- sf2YamlService: service configuration

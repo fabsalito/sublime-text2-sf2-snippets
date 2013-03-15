@@ -1,16 +1,18 @@
 <snippet>
     <content><![CDATA[
-/**
- * @var datetime \$${1:field}
- *
- * @ORM\Column(name="${1:field}", type="datetime")
- *
- * @Assert\DateTime
- */
-private \$${1:field};
+<?php
+
+namespace ${1:vendor}\\${2:bundle}Bundle\Entity;
+
+use Doctrine\ORM\EntityRepository;
+
+class ${3:entity}Repository extends EntityRepository
+{
+
+}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>sf2EntityFieldDatetime</tabTrigger>
+    <tabTrigger>sf2EntityRepository</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
 </snippet>

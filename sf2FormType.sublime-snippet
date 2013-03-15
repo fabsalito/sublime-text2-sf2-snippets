@@ -2,26 +2,26 @@
     <content><![CDATA[
 <?php
 
-namespace ${1:<vendor>}\\${2:<bundle>}Bundle\Form;
+namespace ${1:vendor}\\${2:bundle}Bundle\Form\Type;
 
 use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\Form\FormBuilder;
 
-class ${3:<formClass>}Type extends AbstractType
+class ${3:class}Type extends AbstractType
 {
-    public function buildForm(FormBuilderInterface $builder, array $options)
+    public function buildForm(FormBuilder $builder, array $options)
     {
-        \$builder->add('${5:<field>}', '${6:<type>}');
+        \$builder->add('${5:field}', '${6:type}');
     }
 
     public function getName()
     {
-        return '${7:<formName>}';
+        return '${7:formName}';
     }
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>sf2FormType</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
+    <scope>source.php</scope>
 </snippet>

@@ -1,16 +1,11 @@
 <snippet>
     <content><![CDATA[
-/**
- * @var datetime \$${1:field}
- *
- * @ORM\Column(name="${1:field}", type="datetime")
- *
- * @Assert\DateTime
- */
-private \$${1:field};
+${1:route_name}:
+    pattern:   //${2:url}
+    defaults:  { _controller: ${3:bundle}Bundle:${4:controller}:${5:action}}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>sf2EntityFieldDatetime</tabTrigger>
+    <tabTrigger>sf2YamlRoute</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
 </snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+parameters:
+    ${1:service}.${2:class}.class: ${3:vendor}\\${4:bundle}Bundle\Controller\\${5:controller}Controller
+
+services:
+     ${1:service}.${2:class}:
+        class: %${1:service}.${2:class}.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sf2YamlService</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

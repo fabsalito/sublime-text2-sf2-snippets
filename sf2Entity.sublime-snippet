@@ -8,12 +8,11 @@ use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
- * ${1:vendor}\\${2:bundle}Bundle\Entity\Currency
  *
- * @ORM\Table()
- * @ORM\Entity(repositoryClass="${1:vendor}\\${2:bundle}Bundle\Entity\\${3:entity}Repository")
+ * @ORM\Table(name="${3:table}")
+ * @ORM\Entity(repositoryClass="${1:vendor}\\${2:bundle}Bundle\Entity\\${4:entity}Repository")
  */
-class ${3:entity}
+class ${4:entity}
 {
     /**
      * @var integer $id
@@ -23,10 +22,12 @@ class ${3:entity}
      * @ORM\GeneratedValue(strategy="AUTO")
      */
     private \$id;
+
+    ${0}
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>sf2Entity</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
+    <scope>source.php</scope>
 </snippet>
