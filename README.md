@@ -32,6 +32,7 @@ Snippets
 - sf2EntityFieldText: text type entity field
 - sf2EntityRelManyToOne: Many To One relation entity field
 - sf2EntityRelOneToMany: One To Many relation entity field
+- sf2EntityRelManyToMany: Many To Many relation entity field
 - sf2EntityToString: __toString() entity method
 - sf2EntityRepository: repository skeleton
 - sf2FormType: form type skeleton

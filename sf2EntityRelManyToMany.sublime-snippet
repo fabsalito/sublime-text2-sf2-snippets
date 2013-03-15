@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+/**
+* @ORM\ManyToMany(targetEntity="${1:vendor}\\${2:bundle}Bundle\Entity\\${3:entity}", ${4:operation}By="${5:relatedField}")
+*/
+private \$${6:field};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sf2EntityRelManyToMany</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

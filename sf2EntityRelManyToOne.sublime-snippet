@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
 /*
- * @ORM\ManyToOne(targetEntity="${1:vendor}\\${2:bundle}Bundle\Entity\\${3:entity}")
- * @ORM\JoinColumn(name="${4:tableField}", referencedColumnName="${5:referencedField}")
+ * @ORM\ManyToOne(targetEntity="${1:vendor}\\${2:bundle}Bundle\Entity\\${3:entity}", inversedBy="${4:inversedField}")
+ * @ORM\JoinColumn(name="${5:tableField}", referencedColumnName="${6:referencedField}")
  */
-private \$${6:field};
+private \$${7:field};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>sf2EntityRelManyToOne</tabTrigger>
