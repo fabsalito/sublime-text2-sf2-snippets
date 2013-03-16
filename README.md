@@ -41,3 +41,5 @@ Snippets
 - sf2TwigExtension: twig extension skeleton
 - sf2YamlRoute: route configuration
 - sf2YamlService: service configuration
+
+Sublime Text2 shortcuts : http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html
