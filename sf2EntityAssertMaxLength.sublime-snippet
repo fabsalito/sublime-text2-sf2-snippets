@@ -1,16 +1,9 @@
 <snippet>
     <content><![CDATA[
-/**
- * @var integer
- *
- * @ORM\Column(name="id", type="integer")
- * @ORM\Id
- * @ORM\GeneratedValue(strategy="AUTO")
- */
-private \$id;
+@Assert\MaxLength(${1:length})
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>sf2EntityFieldId</tabTrigger>
+    <tabTrigger>sf2EntityAssertMaxLength</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>
